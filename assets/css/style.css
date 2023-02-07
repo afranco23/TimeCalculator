@@ -70,6 +70,7 @@ form button:hover {
   font-size: 1.2rem;
   background-color: rgb(17, 86, 102, 0.7);
   color: #fff;
+  text-align: center;
 }
 
 .calculator button {
@@ -88,4 +89,8 @@ form button:hover {
 
 .calculator button:hover {
   background: var(--primary-color-darker);
+}
+
+.display {
+  text-align: right;
 }
